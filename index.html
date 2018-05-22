@@ -9,13 +9,13 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    
+
     <title>KnittingMerch</title>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <a href="#" class="navbar-brand">KnittingMerch</a>
+        <a href="index.html" class="navbar-brand">KnittingMerch</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expended="false" aria-label="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,12 +23,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a href="#" class="nav-link">Головна</a>
+                    <a href="index.html" class="nav-link">Головна</a>
                 </li>
-                <li class="nav-item active">
-                    <a href="#" class="nav-link">Каталог товарів</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Каталог товарів</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Светри</a>
+                        <a class="dropdown-item" href="#">Шарфи</a>
+                        <a class="dropdown-item" href="#">Шапки</a>
+                        <a class="dropdown-item" href="#">Дрібнички</a>
+                    </div>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="#" class="nav-link">Контакти</a>
                 </li>
             </ul>
