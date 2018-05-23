@@ -7,6 +7,17 @@
 }*/
 
 .text-order {
-	padding: 30px;
+	padding: 25px;
 	text-align: center;
+}
+
+.hr-line {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 40%;
+	padding-right: 40%;
+}
+
+hr {
+	border-top: 1px solid black;
 }
