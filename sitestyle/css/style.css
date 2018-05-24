@@ -24,24 +24,28 @@ hr {
 
 .form {
 	width: 100%;
-	/*clear: right;*/
-	/*float: left;*/
-	border: 2px dashed red;
+	height: 350px;
+	padding-top: 20px; 
+	margin-bottom: 20px;
+	/*border: 2px dashed red;*/
+	/*border: 1px solid black;*/
 
 }
 
 .image-cover {
 	overflow: hidden;
 	margin: 0 auto;
-	width: 90%;
-	height: 320px;
+	width: 80%;
+	height: 80%;
+	/*border: 2px dashed black;*/
 }
 
 .all-image {
 	display: block;
 	margin: 0 auto;
 	text-align: center;
-	border: 2px dashed red;
+	width: 100%;
+	/*border: 2px dashed green;*/
 }
 
 footer {
