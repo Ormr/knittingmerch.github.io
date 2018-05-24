@@ -14,10 +14,38 @@
 .hr-line {
 	padding-top: 20px;
 	padding-bottom: 10px;
-	padding-left: 40%;
-	padding-right: 40%;
+	padding-left: 45%;
+	padding-right: 45%;
 }
 
 hr {
 	border-top: 1px solid black;
+}
+
+.form {
+	width: 100%;
+	/*clear: right;*/
+	/*float: left;*/
+	border: 2px dashed red;
+
+}
+
+.image-cover {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 90%;
+	height: 320px;
+}
+
+.all-image {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	border: 2px dashed red;
+}
+
+footer {
+	margin-top: 40px;
+	padding-top: 40px;
+	color: white;
 }

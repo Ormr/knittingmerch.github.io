@@ -4,20 +4,12 @@ import tornado.ioloop
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write('<a href="%s">link to story 1</a>' %
-                   self.reverse_url("story", "1"))
-
-class StoryHandler(tornado.web.RequestHandler):
-    def initialize(self, db):
-        self.db = db
-
-    def get(self, story_id):
-        self.write("this is story %s" % story_id)
+        loader = template.Loader("/home/serhii/Tornado/website/venv/webproject")
+        loader.load('index.html')
 
 def make_app():
-    app = Application([
-        (r"/", MainHandler),
-        (r"/story/([0-9]+)", StoryHandler, name="story")
+    app = tornado.web.Application([
+        (r"/", MainHandler)
     ])
     return app
 
