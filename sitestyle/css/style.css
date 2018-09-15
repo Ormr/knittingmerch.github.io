@@ -6,6 +6,25 @@
 	height: 700px;
 }*/
 
+
+header.masthead {
+	height: 100vh;
+	min-height: 650px;
+	padding-top: 0;
+	padding-bottom: 0;
+	background-image: url("https://art-oboi.com.ua/img/gallery/63/thumbs/thumb_l_25203.jpg");
+}
+
+section {
+    padding: 8rem 0;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+
+
 .text-order {
 	padding: 25px;
 	text-align: center;

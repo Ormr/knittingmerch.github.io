@@ -3,43 +3,67 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="sitestyle/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" type="text/css" href="sitestyle/css/style.css">
     <title>KnittingMerch</title>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <a href="index.html" class="navbar-brand">KnittingMerch</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expended="false" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">KnittingMerch</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expended="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a href="index.html" class="nav-link">Головна</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Каталог товарів</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Светри</a>
-                        <a class="dropdown-item" href="#">Шарфи</a>
-                        <a class="dropdown-item" href="#">Шапки</a>
-                        <a class="dropdown-item" href="#">Дрібнички</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a href="#contacts" class="nav-link">Контакти</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Про нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#carouselExampleIndicators" class="nav-link">Каталог товарів</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Каталог товарів</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#sweater">Светри</a>
+                            <a class="dropdown-item" href="#scarf">Шарфи</a>
+                            <a class="dropdown-item" href="#hat">Шапки</a>
+                            <a class="dropdown-item" href="#other">Дрібнички</a>
+                        </div>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Контакти</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+
+    <header class="masthead text-center text-white d-flex">
+        <div class="container my-auto">
+            <div class="col-lg-10 mx-auto">
+                <h1>
+                    <strong class="text-shadow">KnittingMerch</strong>
+                </h1>
+                <hr>
+            </div>
+            <div class="col-lg-8 mx-auto">
+                <p>Text of the description</p>
+                <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">About</a>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="bg-dark">
+        <div class="container">
+            
+        </div>
+        
+    </section>
 
 
     <!-- Slider -->
@@ -52,15 +76,15 @@
         </ol>
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="sitestyle/img/1.jpg" alt="Светри">
+                <img id="sweater" class="d-block w-100" src="sitestyle/img/1.jpg" alt="Светри">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="sitestyle/img/2.jpg" alt="Шарфи">
+                <img id="scarf" class="d-block w-100" src="sitestyle/img/2.jpg" alt="Шарфи">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="sitestyle/img/3.jpg" alt="Шапки">
+                <img id="hat" class="d-block w-100" src="sitestyle/img/3.jpg" alt="Шапки">
             </div>
-            <div class="carousel-item">
+            <div id="other" class="carousel-item">
                 <img class="d-block w-100" src="sitestyle/img/4.jpg" alt="Дрібнички">
             </div>
         </div>
@@ -74,57 +98,8 @@
         </a>
     </div>
 
-    <div class="hr-line">
-        <hr>
-    </div>
-
-
-    <!-- Text -->
-    <div class="text-order">
-        <h4>Замовлення здійснюється по телефону, вказаному в <a href="#contacts">контактах</a>.</h4>
-    </div>
-
-    <div class="hr-line">
-        <hr>
-    </div>
-
-
-
-        <!-- Catalog -->
-    <!--<div class="container-fluid">-->
-        <!--<div class="container">-->
-            <!--<div class="row text-center">-->
-                <!--<div class="col-xs-12 col-sm-4 col-lg-3">-->
-                    <!--<a href="#">-->
-                        <!--<img class="w-100 all-image" src="sitestyle/img/svetr1.jpg" alt="Светри">-->
-                        <!--<h3>Светри</h3>-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="col-xs-12 col-sm-4 col-lg-3">-->
-                    <!--<a href="#">-->
-                        <!--<img class="w-100 all-image" src="sitestyle/img/skarf1.jpg" alt="Шарфи">-->
-                        <!--<h3>Шарфи</h3>-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="col-xs-12 col-sm-4 col-lg-3">-->
-                    <!--<a href="#">-->
-                        <!--<img class="w-100 all-image" src="sitestyle/img/hat1.jpg" alt="Шапки">-->
-                        <!--<h3>Шапки</h3>-->
-                    <!--</a>-->
-                <!--</div>-->
-                <!--<div class="col-xs-12 col-sm-4 col-lg-3">-->
-                    <!--<a href="#">-->
-                        <!--<img class="w-100 all-image" src="sitestyle/img/other1.jpg" alt="Дрібнички">-->
-                        <!--<h3>Дрібнички</h3>-->
-                    <!--</a>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-
-
     <!-- Catalog -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
         <div class="container">
             <div class="row text-center">
                 <div class="col-xs-12 col-sm-5 col-lg-3">
@@ -173,20 +148,25 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Footer -->
-    <footer class="bg-dark" id="contacts">
-        <div class="container-fluid">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p>Телефон: (066) 666 66 66</p>
-                        <p>Email: example@example.com</p>
-                    </div>
+    <section id="contact" class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="section-heading">Contact us!</h1>
+                    <hr>
+                    <p>Телефон: (066) 666 66 66</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mr-auto text-center">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    <p>Email: example@example.com</p>
                 </div>
             </div>
         </div>
-    </footer>
+    </section>
 </body>
 </html>
