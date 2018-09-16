@@ -70,10 +70,16 @@ hr {
 
 .container2 {
 	width: 90%;
-	padding-left: 5%;
 	margin-left: auto;
     margin-right: auto;
 	/*border: 2px dashed red;*/
+}
+
+.container3 {
+	width: 95%;
+	margin-left: auto;
+    margin-right: auto;
+	/*border: 2px dashed green;*/
 }
 
 .image-cover {
