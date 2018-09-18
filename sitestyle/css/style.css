@@ -1,22 +1,27 @@
-/*body {
-	height: 2000px;
-}*/
+body {
+	background-image: url("https://cdn.akson.ru/i/49/49150/1000.jpg"); 
+}
 
-/*.d-block {
-	height: 700px;
-}*/
-
+.main-page {
+	/*background-image: url("http://i5.beon.ru/35/22/472235/18/103994618/0.png");*/
+	background-image: url("http://i7.beon.ru/11/64/2296411/64/111474364/0.png");
+}
 
 header.masthead {
 	height: 100vh;
 	min-height: 650px;
 	padding-top: 0;
 	padding-bottom: 0;
-	background-image: url("https://art-oboi.com.ua/img/gallery/63/thumbs/thumb_l_25203.jpg");
+	/*background-image: url("https://art-oboi.com.ua/img/gallery/63/thumbs/thumb_l_25203.jpg");*/
+	background-color: #737373;
 }
 
 section {
     padding: 8rem 0;
+}
+
+.assortment {
+	/*background-image: url("http://i5.beon.ru/35/22/472235/18/103994618/0.png");*/
 }
 
 .card {
