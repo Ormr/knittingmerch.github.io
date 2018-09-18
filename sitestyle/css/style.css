@@ -20,6 +20,25 @@ section {
     padding: 8rem 0;
 }
 
+#carouselExampleIndicators {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.threads {
+	border: 1px solid darkgrey;
+	background-image: url("http://i7.beon.ru/11/64/2296411/64/111474364/0.png");
+}
+
+/*div.container {
+	margin-bottom: 0;
+	margin-top: 0;
+}*/
+section.container {
+	padding: 0;
+}
+
+
 .assortment {
 	/*background-image: url("http://i5.beon.ru/35/22/472235/18/103994618/0.png");*/
 }
