@@ -2,6 +2,18 @@ body {
 	background-image: url("https://cdn.akson.ru/i/49/49150/1000.jpg"); 
 }
 
+span.k-logo {
+	font-family: "Tangerine", serif;
+	font-size: 25px;
+	font-style: italic;
+}
+
+h1.k-logo {
+	font-family: "Tangerine", serif;
+	text-shadow: 4px 4px 4px #aaa;
+	font-style: italic;
+}
+
 .main-page {
 	/*background-image: url("http://i5.beon.ru/35/22/472235/18/103994618/0.png");*/
 	background-image: url("http://i7.beon.ru/11/64/2296411/64/111474364/0.png");
@@ -19,6 +31,7 @@ header.masthead {
 section {
     padding: 8rem 0;
 }
+
 
 #carouselExampleIndicators {
 	padding-left: 0;
