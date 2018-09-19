@@ -39,7 +39,7 @@ section {
 
 .threads, .patterns {
 	color: white;
-	border: 1px solid black;
+	/*border: 1px solid #ffffe6;*/
 	border-bottom: 0;
 	height: 120px;
 	padding-top: 20px;
@@ -49,11 +49,11 @@ section {
 }
 
 .patterns {
-	border-left: 0;
+	border-left: 1px solid #e6e6e6;
 }
 
 .threads a, .patterns a {
-	color: #ffffe6;
+	color: #e6e6e6;
 }
 
 section div.row {
